@@ -1,0 +1,50 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    background-color: black;
+    color: white;
+    box-shadow: 1px 2px 1px 1px gray;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo {
+    padding: 0.7rem;
+    font-size: 1.1rem;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+.items {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-item {
+    padding: 1rem;
+    transition: all 1s ease;
+}
+
+.nav-item:is(:hover, :focus) {
+    background-color: white;
+    color: black;
+    border-bottom: 4px solid blueviolet;
+}
+
+
