@@ -104,3 +104,14 @@ img {
 #about {
     padding: 0.7rem;
 }
+
+#contact {
+    background-color: black;
+    color: white;
+    padding: 0.7rem;
+}
+
+/* label {
+    padding: 1rem;
+    margin: 1rem;
+} */
