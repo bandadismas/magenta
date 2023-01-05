@@ -132,11 +132,43 @@ img {
 
 /* about */
 #about {
-    padding: 0.7rem;
+    padding: 2rem 0.7rem;
+    background-color: #474E5D;
+    text-align: center;
 }
 
+/* Contact */
 #contact {
     background-color: black;
     color: white;
     padding: 0.7rem;
+    text-align: center;
 }
+
+.contact-form {
+    width: 50%;
+    margin: auto;
+    text-align: left;
+}
+
+/* Style inputs */
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
