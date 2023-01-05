@@ -79,9 +79,11 @@ html {
 
 /* home */
 #home {
-    margin-top: 3.3rem;
+    margin-top: 3.1rem;
     height: 70vh;
     padding: 0.5rem;
+    background: magenta;
+    background: linear-gradient(to right bottom, rgb(99, 13, 99) 50%, #434858 50%);
 }
 
 .title {
