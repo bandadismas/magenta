@@ -5,6 +5,12 @@ html {
 * {
     box-sizing: border-box;
     margin: 0;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 /* navbar */
@@ -172,3 +178,21 @@ input, textarea {
   input[type=submit]:hover {
     background-color: #45a049;
   }
+
+  /* footer */
+footer {
+    display: flex;
+    background-color: #474E5D;
+    color: white;
+    padding: 1rem;
+}
+
+.social ul {
+    list-style-type: none;
+    margin-right: 2rem;
+}
+
+.social ul li {
+    padding: 0.5rem;
+
+}
